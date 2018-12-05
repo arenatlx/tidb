@@ -1,9 +1,9 @@
-###Hackathon 2018脚本
+### Hackathon 2018脚本
 
 
 
 
-####需要在pg中，和当前的tidb中都创建模式
+#### 需要在pg中，和当前的tidb中都创建模式
 
 
 `create table remoteredis(k  varchar(20), v varchar(20));`
@@ -23,7 +23,7 @@
 
 `Insert into foreign_register values(“remotecsv”, “csv”, “127.0.0.1#5433#test.csv”);`
 
-####Attention:
+#### Attention:
 需要先将三个rpc服务器开启，对应的postgresql和redis服务要启动，csv源文件的路径要使用正确
 可以写边rpc的test的进行rpc服务的测试
 
