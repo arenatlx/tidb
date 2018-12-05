@@ -7,7 +7,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/pingcap/tidb/badge.svg?branch=master)](https://coveralls.io/github/pingcap/tidb?branch=master)
 
 
-##TiDB 2018 hackathon
+## TiDB 2018 hackathon
 let the tidb able to link foreign datasource such as postgresql,csv and redis
 
 ![feature](./docs/join.png)
